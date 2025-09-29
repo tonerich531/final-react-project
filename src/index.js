@@ -4,10 +4,11 @@ import './styles.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, fa-magnifying-glass } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router } from 'react-router-dom'
 
-library.add( faBars, fa-magnifying-glass ) 
+
+library.add( faBars, faMagnifyingGlass  ) 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

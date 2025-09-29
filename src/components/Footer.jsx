@@ -15,7 +15,7 @@ const Footer = () => {
                 </Link>
             </li>
             <li>
-                <Link to= "" className="footer__link">
+                <Link to= "/browser" className="footer__link">
                     Find Your Movie
                 </Link>
             </li>

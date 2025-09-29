@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const Browser = () => {
   return (
@@ -8,7 +9,7 @@ const Browser = () => {
         <div className="input__wrapper">
             <input type="text" placeholder="Search for a movie or show..." className="search__input" />
             <figure>
-                <FontAwesomeIcon icon={'magnifying-glass'} />
+                <FontAwesomeIcon icon={faMagnifyingGlass} />
             </figure>
         </div>
         <div className="search__container">
