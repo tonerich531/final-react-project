@@ -163,7 +163,13 @@ li {
 
 
 
-
+.header__title--wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
@@ -233,10 +239,10 @@ li {
 
 
 
-.header__title--wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
+.browser__container {
+    width: 100%;
+    height: 100%;
+    
 }
 
 
@@ -306,8 +312,9 @@ li {
 
 
 
-.search__container {
-    background-color: rgb(7, 150, 21);    
+.search__title--wrapper {
+    width: 100%;
+    height: 100%;    
 }
 
 
